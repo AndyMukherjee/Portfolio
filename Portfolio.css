@@ -1,7 +1,21 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {font-family: 'Roboto', sans-serif;
+	
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+/*end of reset*/
+/*start of custom style*/
 .nav {
 padding: 1em;
-padding-left: 53em;
-padding-right: 1em;
+padding-left: 74.1em;
+
 background-color: #999966;
 position: fixed;
 
@@ -11,7 +25,13 @@ position: fixed;
 float:right;
 margin-left: 2em;}
 
-.nav a:hover{background-color: #00ffcc}
+
+
+li:hover
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
 
 
 
@@ -19,4 +39,90 @@ margin-left: 2em;}
 {background-image: url('http://i.imgur.com/mVXolgq.jpg');
 background-size: cover;
 text-align: center;
-padding: 20em;}
+padding: 20em;
+margin-bottom: 0em;
+border-bottom: 0em; 
+}
+
+.introduction > .lin li{font-size: 2em;
+font-family: "lobster";
+display: inline-block;}
+
+h1 {font-size: 4em;
+font-family: "lobster";}
+.nav li {font-size: 1.3em;}
+
+
+.ani {-webkit-animation-name: first;
+-o-animation-name: first;
+animation-name: first;
+
+
+-webkit-animation-delay: 2s;
+-o-animation-delay: 2s;
+animation-delay: 2s;
+
+-webkit-animation-direction: margin-top;
+-o-animation-direction: margin-top;
+animation-direction: margin-top;
+
+-webkit-animation-duration: 5s;
+-o-animation-duration: 5s;
+animation-duration: 5s;
+
+-webkit-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+
+-webkit-animation-iteration-count: 10;
+-o-animation-iteration-count: 10;
+animation-iteration-count: 10;
+
+}
+
+.projects {background-color: #9999ff;
+margin-top: 0em;
+padding-top: 0.1em;
+}
+
+.projects  .links {-webkit-border-fit: space;
+border-fit: space;
+}
+
+.projects li {display: inline-block;
+font-family:"Shadows Into Light";
+font-size: 3em; }
+
+.projects .karma
+{
+	
+    border-style: double;
+    border-color: #ff66ff;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.projects .ny
+{ 
+	border-color: #ff66ff;
+	border-style: double;
+	 padding-right: 4em;
+    padding-left: 4em;
+}
+
+
+@media only screens and (max-width: 1250px;)
+{
+	.links {padding: 20em;
+	}
+}
+
+@media only screens and (max-width: 11145px;)
+{
+	.introdcution {font-size: 1em;}
+}
+
+
+
+
+
