@@ -53,14 +53,21 @@ font-family: "lobster";}
 .nav li {font-size: 1.3em;}
 
 
-.ani {-webkit-animation-name: first;
+.ani { 
+
+
+-webkit-animation-name: first;
 -o-animation-name: first;
 animation-name: first;
 
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 10; }
+}
 
--webkit-animation-delay: 2s;
--o-animation-delay: 2s;
-animation-delay: 2s;
+-webkit-animation-delay: 0s;
+-o-animation-delay: 0s;
+animation-delay: 0s;
 
 -webkit-animation-direction: margin-top;
 -o-animation-direction: margin-top;
