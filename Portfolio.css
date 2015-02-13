@@ -14,7 +14,7 @@ ol, ul {
 /*start of custom style*/
 .nav {
 padding: 1em;
-padding-left: 74.1em;
+width: 96%;
 
 background-color: #999966;
 position: fixed;
@@ -95,13 +95,14 @@ font-size: 3em; }
 }
 
 
-@media only screens and (max-width: 1250px)
+@media only screen and (max-width: 1250px)
 {
 	.links {padding: 20em;
+		font-size: 1em;
 	}
 }
 
-@media only screens and (max-width: 1145px)
+@media only screen and (max-width: 1145px)
 {
 	h1 {font-size: 1em;}
 }
