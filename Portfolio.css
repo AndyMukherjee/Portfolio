@@ -50,42 +50,19 @@ display: inline-block;}
 
 h1 {font-size: 4em;
 font-family: "lobster";}
+
+
 .nav li {font-size: 1.3em;}
 
 
-.ani { 
+.nav { -webkit-animation: first 5s;
+
+ }
+
+@-webkit-keyframes first {from {background: #999966}
+to {background: #ffff00;}}
 
 
--webkit-animation-name: first;
--o-animation-name: first;
-animation-name: first;
-
-@keyframes NAME-YOUR-ANIMATION {
-  0%   { opacity: 0; }
-  100% { opacity: 10; }
-}
-
--webkit-animation-delay: 0s;
--o-animation-delay: 0s;
-animation-delay: 0s;
-
--webkit-animation-direction: margin-top;
--o-animation-direction: margin-top;
-animation-direction: margin-top;
-
--webkit-animation-duration: 5s;
--o-animation-duration: 5s;
-animation-duration: 5s;
-
--webkit-animation-fill-mode: both;
--o-animation-fill-mode: both;
-animation-fill-mode: both;
-
--webkit-animation-iteration-count: 10;
--o-animation-iteration-count: 10;
-animation-iteration-count: 10;
-
-}
 
 .projects {background-color: #9999ff;
 margin-top: 0em;
@@ -118,15 +95,15 @@ font-size: 3em; }
 }
 
 
-@media only screens and (max-width: 1250px;)
+@media only screens and (max-width: 1250px)
 {
 	.links {padding: 20em;
 	}
 }
 
-@media only screens and (max-width: 11145px;)
+@media only screens and (max-width: 1145px)
 {
-	.introdcution {font-size: 1em;}
+	h1 {font-size: 1em;}
 }
 
 
