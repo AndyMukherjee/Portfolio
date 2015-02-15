@@ -12,55 +12,99 @@ ol, ul {
 }
 /*end of reset*/
 /*start of custom style*/
-.nav {
-padding: 1em;
-width: 96%;
+.nav 
+{
 
-background-color: #999966;
-position: fixed;
+     padding: 1em;
+     width: 96%;
+     background-color: #999966;
+     position: fixed;
 
 }
 
-.nav li {display: inline-block;
-float:right;
-margin-left: 2em;}
+
+.nav >.me
+
+{
+	display: inline-block;
+    float:right;
+    margin-left: 2em;
+}
 
 
 
-li:hover
+a:hover
 {
 	cursor: pointer;
-	text-decoration: underline;
+	
 }
 
+a
 
+{
+	color: #006600;
+	text-decoration: none;
+}
 
 .introduction
-{background-image: url('http://i.imgur.com/mVXolgq.jpg');
-background-size: cover;
-text-align: center;
-padding: 20em;
-margin-bottom: 0em;
-border-bottom: 0em; 
+{
+	background-image: url('http://i.imgur.com/mVXolgq.jpg');
+	background-size: cover;
+	text-align: center;
+	padding: 20em;
+	margin-bottom: 0em;
+	border-bottom: 0em; 
 }
 
-.introduction > .lin li{font-size: 2em;
-font-family: "lobster";
-display: inline-block;}
+.introduction > .lin 
+
+{
+	font-size: 2em;
+	font-family: "lobster";
+	display: inline-block;
+    
+}
+
+
+.w
+{color: #000000;
+}
+
+.me
+{
+
+	color: #3366ff;
+}
+
 
 h1 {font-size: 4em;
-font-family: "lobster";}
+font-family: "lobster";
+}
 
 
-.nav li {font-size: 1.3em;}
+.nav  {font-size: 1.3em;}
 
 
-.nav { -webkit-animation: first 5s;
+.nav { 
+
+	-webkit-animation: first 5s;
+	-webkit-animation-iteration-count: 10;
+	-o-animation-iteration-count: 10;
+	animation-iteration-count: 10;
 
  }
 
-@-webkit-keyframes first {from {background: #999966}
-to {background: #ffff00;}}
+@-webkit-keyframes first 
+
+{  	from 
+
+	{	background: #999966 ; }
+
+
+to  
+	{   background: #ffff00;}
+
+}
 
 
 
@@ -69,9 +113,7 @@ margin-top: 0em;
 padding-top: 0.1em;
 }
 
-.projects  .links {-webkit-border-fit: space;
-border-fit: space;
-}
+
 
 .projects li {display: inline-block;
 font-family:"Shadows Into Light";
