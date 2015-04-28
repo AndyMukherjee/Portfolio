@@ -48,7 +48,12 @@ a
 
 .introduction
 {
+	
 	background-image: url('http://i.imgur.com/mVXolgq.jpg');
+	background-repeat: none;
+	width:53em;
+	height:30em;
+
 	background-size: cover;
 	text-align: center;
 	padding: 20em;
@@ -108,32 +113,27 @@ to
 
 
 
-.projects {background-color: #9999ff;
-margin-top: 0em;
-padding-top: 0.1em;
+.projects {
+margin-top: 20em;
+padding-top: 1em;
+margin-left: -20em;
+width:90em;
+
+
+
 }
 
+.links {
+	font-family: 'Shadows Into Light', cursive;
+font-size: 2em;
 
 
-.projects li {display: inline-block;
-font-family:"Shadows Into Light";
-font-size: 3em; }
 
-.projects .karma
-{
-	
-    border-style: double;
-    border-color: #ff66ff;
-    padding-right: 4em;
-    padding-left: 4em;
-}
+ }
+ .links li{
+	display: inline-block;
+	padding-right: 1em;
 
-.projects .ny
-{ 
-	border-color: #ff66ff;
-	border-style: double;
-	 padding-right: 4em;
-    padding-left: 4em;
 }
 
 
